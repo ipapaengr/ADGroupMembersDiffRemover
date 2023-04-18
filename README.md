@@ -1,1 +1,1 @@
-# ADGroupMembersDiffRemover
+This PowerShell script is designed to compare the members of two Active Directory groups, `$group1` and `$group2`, and remove any users who are members of both groups from `$group2`. Additionally, the script enables the user accounts that were removed from `$group2` and exports information about them to a CSV file specified in `$outFile`.
